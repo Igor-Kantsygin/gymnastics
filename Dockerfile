@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:17.0.17
 WORKDIR /app
 COPY target/gymnastics-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
