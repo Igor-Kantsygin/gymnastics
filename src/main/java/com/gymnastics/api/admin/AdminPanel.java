@@ -29,7 +29,7 @@ public class AdminPanel {
             if (update.getCallbackQuery().getData().equals("save_request")) {
                 session.startRequest();
                 return SendMessage.builder()
-                        .text("Введите филиал:")
+                        .text("Выберите филиал:")
                         .chatId(chatId)
                         .replyMarkup(adminKeyboard.getIkmMainAdminCancel())
                         .build();
