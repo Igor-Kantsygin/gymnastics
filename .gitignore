@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+src/main/resources/google/telegram-gymnastics-sheets-d90fb02f4909.json
