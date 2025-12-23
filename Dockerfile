@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM amazoncorretto:17
 WORKDIR /app
 COPY target/gymnastics-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
